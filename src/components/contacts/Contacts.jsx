@@ -38,7 +38,7 @@ const Contacts = () => {
 
          <article className="contact__option">
            <BsMessenger className='contact__option-icon'/> 
-            <h4>Messanger</h4>
+            <h4>Messenger</h4>
             <h5>larrycode</h5>
             <a href="https://m.me/Jesusboyyy" target="_blank">Send a Message</a>
          </article>
@@ -47,7 +47,7 @@ const Contacts = () => {
            <IoLogoWhatsapp className='contact__option-icon'/>
             <h4>Whatsapp</h4>
             <h5>07034624533</h5>
-            <a href="https://api.whatsapp.com/send?phone+=2347034624533" target="_blank">Send a Message</a>
+            <a href="https://api.whatsapp.com/send?phone=2347034624533" target="_blank">Send a Message</a>
          </article>
 
        </div>

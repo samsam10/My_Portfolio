@@ -24,7 +24,7 @@ const Footer = () => {
 
       <div className="footer__socials">
         <a href="https://twitter.com/TrueDBriggs"><IoLogoTwitter /></a>
-        <a href="https://api.whatsapp.com/send?phone+=2347034624533"><IoLogoWhatsapp/></a>
+        <a href="https://api.whatsapp.com/send?phone=2347034624533"><IoLogoWhatsapp/></a>
         <a href="https://github.com/samsam10"><BsGithub/></a>
 
       </div>

@@ -4,32 +4,32 @@ import IMG1 from "../../assets/portfolio1.jpg"
 import IMG2 from "../../assets/portfolio2.jpg"
 import IMG3 from "../../assets/portfolio3.jpg"
 import IMG4 from "../../assets/portfolio4.jpg"
-// import IMG5 from "../../assets/portfolio5.jpg"
+import IMG5 from "../../assets/portfolio5.PNG"
 import IMG6 from "../../assets/portfolio6.jpg"
 
 
 const data = [
   {
-    id : 1,
-    image : IMG1,
-    title : "Task Manager",
-    github : "https://github.com/samsam10/Task_Manager/",
-    demo : "https://samsam10.github.io/Task_Manager/"
-  },
-
+     id : 1,
+     image : IMG5,
+     title : "Woligraph",
+     github : "https://github.com/samsam10/woligraph",
+     demo : "http://woligraph.netlify.app/"
+    },
+    {
+      id : 2,
+      image : IMG3,
+      title : "Expense Tracker",
+      github : "https://github.com/samsam10/Expense_Tracker",
+      demo : "https://expensetrackerlry.netlify.app"
+    },
+  
   {
-    id : 2,
+    id : 3,
     image : IMG2,
     title : "Admin Dashboard(E-Commerce Website)",
     github : "https://github.com/samsam10/AdminDashboard",
     demo : "https://laritekadmindashboard.netlify.app"
-  },
-  {
-    id : 3,
-    image : IMG3,
-    title : "Expense Tracker",
-    github : "https://github.com/samsam10/Expense_Tracker",
-    demo : "https://expensetrackerlry.netlify.app"
   },
   {
     id : 4,
@@ -37,20 +37,20 @@ const data = [
     title : "Quizzify",
     github : "https://github.com/samsam10/samsam10.github.io",
     demo : "https://quizappie.netlify.app/"
-  
+    
   }, 
-  // {
-  //   // id : 5,
-  //   // image : IMG5,
-  //   // title : "cryptocurrency dashboard",
-  //   // github : "http://github.com",
-  //   // demo : "http://dribble.com/"
-  // },
+  {
+    id : 5,
+    image : IMG1,
+    title : "Task Manager",
+    github : "https://github.com/samsam10/Task_Manager/",
+    demo : "https://taskmanagerlarry.netlify.app"
+  },
   {
     id : 6,
     image : IMG6,
     title : "Portfolio Website",
-    github : "http://github.com",
+    github : "https://github.com/samsam10/My_Portfolio",
     demo : "#"
 
   }
