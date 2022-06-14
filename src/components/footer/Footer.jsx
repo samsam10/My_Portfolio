@@ -3,6 +3,7 @@ import "./Footer.css"
 import {IoLogoTwitter} from "react-icons/io"
 import {BsGithub} from "react-icons/bs"
 import {IoLogoWhatsapp} from "react-icons/io"
+import {IoLogoLinkedin} from "react-icons/io"
 
 
 
@@ -26,6 +27,7 @@ const Footer = () => {
         <a href="https://twitter.com/TrueDBriggs"><IoLogoTwitter /></a>
         <a href="https://api.whatsapp.com/send?phone=2347034624533"><IoLogoWhatsapp/></a>
         <a href="https://github.com/samsam10"><BsGithub/></a>
+        <a href="https://www.linkedin.com/in/olanrewaju-ogundipe-96617b128"><IoLogoLinkedin/></a>
 
       </div>
 

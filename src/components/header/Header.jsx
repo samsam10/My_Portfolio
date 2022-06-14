@@ -4,6 +4,7 @@ import CTA from './CTA'
 import ME from '../../assets/me.png'
 import HeaderSocials from './HeaderSocials'
 import 'animate.css'
+import Typical from 'react-typical'
 
 
 
@@ -14,8 +15,21 @@ const Header = () => {
         <div className="container header__container">
           <h4 >Hello I'm</h4>
           <h1>Ogundipe Olanrewaju Samuel</h1>
+          
+
           <div className="wrapper">
-              <div class="typing-demo">Front-End Developer</div>
+          <Typical 
+            loop={Infinity}
+            steps = {["Frontend Developer ", 
+                      1000,
+                      "Code Tipper", 
+                      1000,
+                      "Software Developer", 
+                      1000,
+                      "Code Enthusiast", 
+                      1000,
+          ]}
+          />
           </div>
           <CTA/>
           <HeaderSocials/>

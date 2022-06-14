@@ -28,20 +28,20 @@ header{
     /*This part is important for centering*/
     display: grid;
     place-items: center;
-  }
-  
-  .typing-demo {
-    width: 22ch;
-    animation: typing 2.5s steps(22), blink .5s step-end infinite alternate;
-    /* animation-iteration-count: infinite; */
-    animation-iteration-count: 3;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 0px solid;
     font-family: monospace;
     font-size: 1.9em;
   }
   
+  /* .typing-demo {
+    width: 22ch;
+    animation: typing 2.5s steps(22), blink .5s step-end infinite alternate;
+    /* animation-iteration-count: infinite; */
+    /* animation-iteration-count: 3;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 0px solid;
+    
+  }
   @keyframes typing {
     from {
       width: 0
@@ -52,7 +52,7 @@ header{
     50% {
       border-color: transparent
     }
-  }
+  } 
 
 /*=============CTA================*/
 .cta{
