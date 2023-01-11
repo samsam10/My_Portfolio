@@ -20,7 +20,7 @@ const Header = () => {
           <div className="wrapper">
           <Typical 
             loop={Infinity}
-            steps = {["Frontend Developer ", 
+            steps = {["MERN Stack Developer ", 
                       1000,
                       "Code Tipper", 
                       1000,
