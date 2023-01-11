@@ -29,7 +29,7 @@ const About = () => {
             
             <article className='about__card'>
                 <FiUsers className='about__icon'/>
-              <h5>Frontend Developer</h5>
+              <h5>MERN Stack Developer</h5>
               <small>Life Long Learner</small>
             </article>
 
@@ -40,7 +40,7 @@ const About = () => {
             </article>
           </div>
 
-          <p>I am a frontend Developer who is passionate about building frontend applications to solve problems 
+          <p>I am a MERN Stack Developer who is passionate about building applications to solve problems 
             </p>
           <a href="#contacts" className='btn btn-primary'>Let's Talk</a>
         </div>
